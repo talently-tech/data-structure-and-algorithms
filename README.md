@@ -41,7 +41,7 @@ An understanding of logic, maths, algorithms, and proficiency in some programmin
 
 ### Unit 01: [Introduction to Complexity](01-intro-complexity)
 
-#### Topics
+#### Goals
 * Differences among best, expected, and worst case behaviours of an algorithm
 * Asymptotic analysis of upper and expected complexity bounds
 * Big O notation: formal definition
@@ -58,7 +58,7 @@ An understanding of logic, maths, algorithms, and proficiency in some programmin
 | 04 | quiz | self-placed | 20min | [Counting inversions](01-complexity/04-quiz.md)
 
 ### Unidad 02: [Complexity in Random Algorithms](02-random-complexity)
-#### Topics
+#### Goals
 * Recurrence relations
 * Master Theorem
 * Analysis of iterative and recursive algorithms
@@ -87,12 +87,12 @@ An understanding of logic, maths, algorithms, and proficiency in some programmin
 | 02 | seminar | guided | 10min | [Valid Anagram problem](https://leetcode.com/problems/valid-anagram/)
 | 03 | seminar | guided | 10min | [Intersection of two arrays](https://leetcode.com/problems/intersection-of-two-arrays/)
 | 04 | quiz | self-placed | 20min | [Largest Range](https://www.algoexpert.io/questions/Largest%20Range)
-| 04 | quiz | self-placed | 20min | [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
-| 05 | reading | self-placed | 5min | [Lists](01-random-complexity/00-intro.md)
-| 06 | seminar | guided | 10min | [Remove Kth node from end](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
-| 07 | quiz | self-placed | 10min | [Merge two linked lists](https://www.algoexpert.io/questions/Merge%20Linked%20Lists)
-| 08 | reading | self-placed | 20min | [Stacks and queues](01-random-complexity/03-quick-sort.md)
-| 09 | seminar | guided | 20min | [Balanced brackets](https://www.algoexpert.io/questions/Balanced%20Brackets)
+| 05 | quiz | self-placed | 20min | [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+| 06 | reading | self-placed | 5min | [Lists](01-random-complexity/00-intro.md)
+| 07 | seminar | guided | 10min | [Remove Kth node from end](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+| 08 | quiz | self-placed | 10min | [Merge two linked lists](https://www.algoexpert.io/questions/Merge%20Linked%20Lists)
+| 09 | reading | self-placed | 20min | [Stacks and queues](01-random-complexity/03-quick-sort.md)
+| 10 | seminar | guided | 20min | [Balanced brackets](https://www.algoexpert.io/questions/Balanced%20Brackets)
 
 #### More problems
 * Rotate Array
@@ -110,31 +110,21 @@ An understanding of logic, maths, algorithms, and proficiency in some programmin
 
 | # | Type | Format | Duration | Topic
 | - | ---- | ------- | -------- | ------
-| 00 | reading | self-placed | 5min | [Binary trees and BTSs](01-random-complexity/00-intro.md)
-| 02 | seminar | guided | 10min | [Find closest value in a BST](https://www.geeksforgeeks.org/find-closest-element-binary-search-tree/)
-| 02 | quiz | self-placed | 10min | [Validate BST](01-random-complexity/03-quick-sort.md)
-| 01 | reading | self-placed | 5min | [Sets](01-random-complexity/00-intro.md)
-| 01 | reading | self-placed | 5min | [Diccionaries](01-random-complexity/00-intro.md)
-| 02 | seminar | guided | 10min | [Two sum problem](01-random-complexity/03-quick-sort.md)
-| 01 | reading | self-placed | 5min | [Priority queues](01-random-complexity/00-intro.md)
-| 02 | seminar | guided | 10min | [Two sum problem](https://leetcode.com/problems/two-sum/)
-| 01 | reading | self-placed | 5min | [Hash tables](01-random-complexity/00-intro.md)
-| 03 | seminar | guided | 10min | [Intersection of two arrays](01-random-complexity/03-quick-sort.md)
-| 01 | quiz | self-placed | 20min | [Largest Range](01-random-complexity/01-quiz.md)
-| 01 | quiz | self-placed | 20min | [Group Anagrams](01-random-complexity/01-quiz.md)
-| 00 | reading | self-placed | 5min | [Lists](01-random-complexity/00-intro.md)
-| 02 | seminar | guided | 10min | [Remove Kth node from end](01-random-complexity/03-quick-sort.md)
-| 02 | quiz | self-placed | 10min | [Merge two linked lists](01-random-complexity/03-quick-sort.md)
-| 02 | reading | self-placed | 20min | [Stacks and queues](01-random-complexity/03-quick-sort.md)
-| 02 | seminar | guided | 20min | [Balanced brackets](01-random-complexity/03-quick-sort.md)
+| 00 | reading | self-placed | 10min | [Binary trees and BTSs](01-random-complexity/00-intro.md)
+| 01 | seminar | guided | 10min | [Find closest value in a BST](https://www.geeksforgeeks.org/find-closest-element-binary-search-tree/)
+| 03 | quiz | self-placed | 10min | [Validate BST](01-random-complexity/03-quick-sort.md)
+| 04 | reading | self-placed | 10min | [Sets and Diccionaries](01-random-complexity/00-intro.md)
+| 05 | reading | self-placed | 10min | [Priority queues](01-random-complexity/00-intro.md)
+| 06 | reading | self-placed | 10min | [Hash tables](01-random-complexity/00-intro.md)
+| 07 | seminar | guided | 15min | [Two sum problem](01-random-complexity/03-quick-sort.md)
 
 #### More problems
-* Binary trees
-* Sets and Diccionaries
-* Priority queues
-* Hash tables
-
-
+* Branch Sums
+* Max Path Sum in Binary Tree
+* Find Closest Value in BST
+* Validate BST
+* Same BSTs
+* Continuous median
 
 ### Unit 05: [Algorithms Strategy](01-intro-complexity)
 
@@ -145,30 +135,40 @@ An understanding of logic, maths, algorithms, and proficiency in some programmin
 
 | # | Type | Format | Duration | Topic
 | - | ---- | ------- | -------- | ------
-| 00 | reading | self-placed | 30min | [Introdution to complexity](01-complexity/00-intro.md)
-| 01 | reading | self-placed | 30min | [Asymptotic analysis](01-complexity/01-asymptotic.md)
-| 02 | seminar | guided | 10min | [Selection sort](01-complexity/02-selection.md)
-| 03 | seminar | guided | 10min | [Merge sort](01-complexity/03-merge.md)
-| 04 | quiz | self-placed | 20min | [Counting inversions](01-complexity/04-quiz.md)
+| 00 | reading | self-placed | 10min | [Recursion and divide and conquer](01-complexity/00-intro.md)
+| 01 | reading | self-placed | 10min | [Dynamic Programming](01-complexity/01-asymptotic.md)
+| 02 | seminar | guided | 10min | [Fibonacci](01-complexity/02-selection.md)
+| 02 | seminar | guided | 15min | [Hannoi](01-complexity/02-selection.md)
+| 03 | seminar | guided | 15min | [Number of Ways to Make Change](01-complexity/03-merge.md)
 
-
+#### More problems
+* Min number of coins for change
+* Min number of jumps
+* Knapsack problem
+* Longest String Chain
 
 ### Unit 06: [Graphs Algorithms](01-intro-complexity)
 
 #### Topics
-* Brute Force
-* Recursion and Divide-and-conquer
-* Dynamic Programming
+* Graph representation
+* Searching algorithms
+* Shortest Path
 
 | # | Type | Format | Duration | Topic
 | - | ---- | ------- | -------- | ------
-| 00 | reading | self-placed | 30min | [Introdution to complexity](01-complexity/00-intro.md)
-| 01 | reading | self-placed | 30min | [Asymptotic analysis](01-complexity/01-asymptotic.md)
-| 02 | seminar | guided | 10min | [Selection sort](01-complexity/02-selection.md)
-| 03 | seminar | guided | 10min | [Merge sort](01-complexity/03-merge.md)
-| 04 | quiz | self-placed | 20min | [Counting inversions](01-complexity/04-quiz.md)
+| 00 | reading | self-placed | 30min | [Graphs and representation](01-complexity/00-intro.md)
+| 01 | reading | self-placed | 30min | [Searching Algorithms](01-complexity/01-asymptotic.md)
+| 02 | seminar | guided | 10min | [Depth-first Search](01-complexity/02-selection.md)
+| 03 | seminar | guided | 10min | [Breadth-first Search](01-complexity/03-merge.md)
+| 04 | quiz | self-placed | 20min | [Simple shortest Path](01-complexity/04-quiz.md)
+| 05 | seminar | guided | 15min | [Bellman Ford algorithm](01-complexity/04-quiz.md)
 
- 
+#### More problems
+* Airport Connections
+* Number of islands
+* Youngest Common Ancestor
+* River Sizes
+
 ## Author
 
 * Alexander Ocsa
